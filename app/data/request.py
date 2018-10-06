@@ -13,7 +13,7 @@ for data_item in data_log:
     metatype = data_item["metatype"]
     # print(type(metatype[0]))
 
-# [d['value'] for d in l]
+
 for meta_item in metatype:
     mt_id = meta_item["id"]
     mt_value = meta_item["value"]
